@@ -1,0 +1,24 @@
+sudo: false
+language: node_js
+node_js:
+  - 'node'
+before_install:
+  - npm install
+cache:
+  directories:
+    - node_modules
+branches:
+  only:
+    - master
+notifications:
+  email: false
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local-dir: build
+  github-token: $GITHUB_TOKEN
+  target-branch: gh-pages
+  on:
+    branch: master
