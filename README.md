@@ -8,6 +8,8 @@ It is, but I recommend going through their guides, because they are very good at
 ## Philosophy Of This Boilerplate
 This packages does not everything for you, but it is a strong basis for when you want to use ES6 and SCSS. It adds a few things that are used most of the times, like [autoprefixer](https://github.com/postcss/autoprefixer) and [filename hashing](https://github.com/webpack-contrib/mini-css-extract-plugin#long-term-caching). But not much more than that.
 
+The files in the `src`-directory are super simple and just for demonstration purposes. Take a look!
+
 ## [Travis Deploy To GitHub Pages](https://docs.travis-ci.com/user/deployment/pages/)
 If you use GitHub Pages to deploy your frontend but you don't want to commit your `dist`-directory every time, you can use [Travis](https://docs.travis-ci.com/user/deployment/pages/) (see config in `.travis.yml`) to push your compiled code (it runs `npm run build`) to `gh-pages`. You can easily add more commands and scripts to Travis which will run before or after your deploy like pruning your cache for example.
 
