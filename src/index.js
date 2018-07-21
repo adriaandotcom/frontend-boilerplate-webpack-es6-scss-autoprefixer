@@ -1,4 +1,6 @@
-// Import scss
+// Import scss here because we want to only use one entry point. Because the guides say:
+// "As a rule of thumb: for each HTML document use exactly one entry point."
+// https://webpack.js.org/concepts/entry-points/
 import "./scss/main.scss";
 
 import { cube } from './math.js';
