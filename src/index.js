@@ -8,12 +8,11 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 function component() {
-  const element = document.createElement('pre');
+  const element = document.createElement('p');
 
-  element.innerHTML = [
-    'Hello webpack!',
-    '5 cubed is equal to ' + cube(5)
-  ].join('\n\n');
+  // Try to look for the cube function in build/...js file (when you run `npm run build`)
+  // it's not there, this is called tree shaking: https://webpack.js.org/guides/tree-shaking/
+  element.innerHTML = `This is code loaded from <code>src/index.js</code>: cube(5) is ${cube(5)}.`;
 
   return element;
 }

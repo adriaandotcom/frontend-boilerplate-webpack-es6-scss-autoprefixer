@@ -1,9 +1,16 @@
+// Jep, we use scss variables
 $red: red;
 
-* {
+p:first-of-type {
   color: $red;
 }
 
+// Make it fat
+code {
+  font-weight: bold;
+}
+
+// To see if autoprefixer works
 ::placeholder {
   color: gray;
 }
