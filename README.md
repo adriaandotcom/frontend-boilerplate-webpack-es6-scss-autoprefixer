@@ -16,7 +16,7 @@ If you use GitHub Pages to deploy your frontend but you don't want to commit you
 ## Recourses
 Most of this comes from two recourses. The first [Webpack Guides](https://webpack.js.org/guides), again, they are really good and you should check them out.
 
-Next is this awesome guide _A tale of Webpack 4 and how to finally configure it in the right way_ writen by Margarita Obraztsova ([instagram](https://www.instagram.com/riittagirl), [twitter](https://twitter.com/riittagirl)) on [hackernoon.com](https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1)
+Next is this awesome guide _[A tale of Webpack 4 and how to finally configure it in the right way](https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1)_ writen by Margarita Obraztsova ([instagram](https://www.instagram.com/riittagirl), [twitter](https://twitter.com/riittagirl)) on [hackernoon.com](https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1)
 
 ## Contribute
 Can you find things that could be better here? Just create a PR and I will merge it.
