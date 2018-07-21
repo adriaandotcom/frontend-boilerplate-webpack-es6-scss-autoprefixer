@@ -10,7 +10,7 @@ Clone this repo to a `boilerplate`-folder with the following command (so you don
 git clone https://github.com/adriaanvanrossum/frontend-boilerplate-webpack-es6-scss-autoprefixer.git boilerplate && cd "$_"
 ```
 
-The install the modules with `npm install` and run the code with `npm start`!
+Then install the modules with `npm install` and run the code with `npm start`!
 
 When you are done and want to compile the results to `dist`, you type
 
