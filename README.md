@@ -2,6 +2,22 @@
 
 Also with [tree shaking](https://webpack.js.org/guides/tree-shaking/), [autoprefixer](https://github.com/postcss/autoprefixer), [filename hashing](https://github.com/webpack-contrib/mini-css-extract-plugin#long-term-caching), [source maps](https://webpack.js.org/configuration/devtool/), [babel](https://babeljs.io/) (for ES6) and [automatic filled in filenames](https://github.com/jantimon/html-webpack-plugin) of the `css` and `js`-files in your _HTML_-page.
 
+## How to run?
+
+Clone this repo to a `boilerplate`-folder with the following command (so you don't get this long directory name)
+
+```
+git clone https://github.com/adriaanvanrossum/frontend-boilerplate-webpack-es6-scss-autoprefixer.git boilerplate && cd "$_"
+```
+
+The install the modules with `npm install` && run the code with `npm start`!
+
+When you are done and want to compile the results to `dist`, you type
+
+```
+npm run build
+```
+
 ## Webpack is a Bitch to Setup
 It is, but I recommend going through their guides, because they are very good at the moment. Go to [webpack.js.org/guides/getting-started](https://webpack.js.org/guides/getting-started) and browse through the sidebar from top to bottom and you will learn a lot! It's worth your time.
 
