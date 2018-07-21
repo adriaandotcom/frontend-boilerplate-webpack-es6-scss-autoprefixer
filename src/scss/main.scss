@@ -1,0 +1,9 @@
+$red: red;
+
+* {
+  color: $red;
+}
+
+::placeholder {
+  color: gray;
+}
