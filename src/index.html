@@ -1,9 +1,14 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <title>Frontend Boilerplate</title>
+    <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="/<%=htmlWebpackPlugin.files.chunks.app.css %>">
   </head>
   <body>
-    <div>Hello, world!</div>
+    <p>This is your HTML loaded from <code>src/index.html</code>.</p>
+
     <script src="/<%= htmlWebpackPlugin.files.chunks.app.entry %>"></script>
   </body>
 </html>
